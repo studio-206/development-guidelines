@@ -39,7 +39,7 @@ export const LibraryTable = () => {
       </tr>
       {Libraries.map((item) => (
         <tr>
-          <td>
+          <td style={{ minWidth: 140 }}>
             <a href={item.link} target="_blank" rel="noopener norefferer">
               {item.name}
             </a>
@@ -66,7 +66,7 @@ export const Libraries = [
     name: "Chakra UI",
     link: "https://chakra-ui.com",
     description: "A styled component library.",
-    uses: "-",
+    uses: null,
   },
   {
     name: "Embla Carousel",
@@ -79,20 +79,20 @@ export const Libraries = [
     link: "https://headlessui.com/",
     description:
       "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
-    uses: "-",
+    uses: null,
   },
   {
     name: "React Aria",
     link: "https://react-spectrum.adobe.com/react-aria/",
     description:
       "UA library of React Hooks that provides accessible UI primitives for your design system by, built by Adobe.",
-    uses: "-",
+    uses: null,
   },
   {
     name: "Radix UI",
     link: "https://www.radix-ui.com/",
     description:
       "Unstyled, accessible components for building high‑quality design systems and web apps in React.",
-    uses: "-",
+    uses: null,
   },
 ];
