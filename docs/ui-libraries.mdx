@@ -29,8 +29,52 @@ Below you will find a list of UI Libraries we use and ❤️
 
 ## List
 
-- [Ariakit](https://ariakit.org) - Ariakit is an open source library that provides lower-level React components and hooks for building accessible web apps, design systems, and component libraries.
 - [Chakra UI](https://chakra-ui.com)
 - [Headless UI](https://headlessui.com/) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 - [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible components for building high‑quality design systems and web apps in React.
 - [React Aria](https://react-spectrum.adobe.com/react-aria/) - A library of React Hooks that provides accessible UI primitives for your design system by, built by Adobe.
+
+export const List = [
+  {
+    name: "Ariakit",
+    link: "https://ariakit.org",
+    description:
+      "An open source library that provides lower-level React components and hooks for building accessible web apps, design systems, and component libraries.",
+    uses: "xyz",
+  },
+];
+
+export const Stuff = () => {
+  return (
+    <div style={{ fontSize: 20 }}>
+      {List.map((item) => (
+        <div>{item.name}</div>
+      ))}
+    </div>
+  );
+};
+
+<Stuff />
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Use cases</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://ariakit.org">Ariakit</a>
+      </td>
+      <td>
+        an open source library that provides lower-level React components and hooks for building
+        accessible web apps, design systems, and component libraries.
+      </td>
+      <td>Accessible Primitive components</td>
+    </tr>
+  </tbody>
+</table>
+;
