@@ -3,4 +3,6 @@ slug: /
 title: "Introduction"
 ---
 
-This page will be the home page when users visit https://example.com/.
+Welcome to the Studio 206 Development Guidelines!
+
+Please check our the sidebar for a list of current documentation.
