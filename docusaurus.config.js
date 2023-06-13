@@ -11,7 +11,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://guidelines.studio206.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -57,14 +57,14 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Studio 206 Development Guidelines",
+        title: "Studio 206",
         logo: {
-          alt: "My Site Logo",
+          alt: "Studio 206",
           src: "img/logo.svg",
         },
         items: [
           {
-            href: "https://github.com/studio206/development-guidelines",
+            href: "https://github.com/studio-206/development-guidelines",
             label: "GitHub",
             position: "right",
           },
