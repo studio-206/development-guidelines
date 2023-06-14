@@ -34,9 +34,9 @@ const config = {
 
   presets: [
     [
-      "classic",
+      "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         blog: false, // disable the blog.
         docs: {
           routeBasePath: "/",
@@ -47,20 +47,26 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
+      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/social-card.jpg",
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        title: "Studio 206",
+        title: "Development Guidelines",
         logo: {
           alt: "Studio 206",
           src: "img/logo.svg",
+          srcDark: "img/logo-dark.svg",
         },
         items: [
           {
@@ -71,7 +77,7 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         // links: [
         //   {
         //     title: "Community",
@@ -110,7 +116,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 };
 
 module.exports = config;
