@@ -4,7 +4,7 @@ title: Hello World
 
 Hello and welcome to our development guidelines.
 
-We share this with employees and freelancers when onboarding to ensure we keep a consistent code style through our projects.
+We share this with employees and freelancers when onboarding to ensure we keep a consistent code style throughout our projects.
 
 A few notes:
 
