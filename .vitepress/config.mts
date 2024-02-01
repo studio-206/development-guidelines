@@ -15,6 +15,17 @@ export default defineConfig({
           { text: "Importing Modules", link: "/importing-modules" },
         ],
       },
+      {
+        text: "Git, branches & PR's",
+        items: [
+          { text: "Branching", link: "/git/branching" },
+          { text: "Commits", link: "/git/commits" },
+        ],
+      },
+      {
+        text: "Create 206 App",
+        link: "/create-206-app",
+      },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
