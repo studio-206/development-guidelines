@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Development Guidelines",
+  title: "Studio 206",
   description: "Studio 206 Development Guidelines",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
