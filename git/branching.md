@@ -24,4 +24,4 @@ When used correctly and a pull request is created on github, the Github Linear i
 
 ![Linear Github Integration](/git-branching-2.png)
 
-You can also only use the ticket number in your branch name or PR title, it will link to the correct Linear ticket as well, just like the above example.
+You can also only use the ticket number in your branch name or PR title, it will link to the correct Linear ticket as well, e.g `206-1136`
