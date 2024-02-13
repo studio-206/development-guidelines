@@ -2,6 +2,8 @@
 title: Tailwind CSS
 ---
 
+# Tailwind CSS
+
 Tailwind is a powerful open source CSS framework that is preferred choice when styling websites and applications.
 
 You can view the documentation for tailwind at [tailwindcss.com](https://tailwindcss.com)
