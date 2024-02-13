@@ -11,20 +11,29 @@ export default defineConfig({
       {
         text: "Introduction",
         items: [
-          { text: "Images", link: "/images" },
-          { text: "Importing Modules", link: "/importing-modules" },
+          { text: "Images", link: "/docs/images" },
+          { text: "Importing Modules", link: "/docs/importing-modules" },
+        ],
+      },
+      {
+        text: "Styling",
+        items: [
+          {
+            text: "Tailwind CSS",
+            link: "/docs/tailwind",
+          },
         ],
       },
       {
         text: "Git, branches & PR's",
         items: [
-          { text: "Branching", link: "/git/branching" },
-          { text: "Commits", link: "/git/commits" },
+          { text: "Branching", link: "/docs/git/branching" },
+          { text: "Commits", link: "/docs/git/commits" },
         ],
       },
       {
         text: "Create 206 App",
-        link: "/create-206-app",
+        link: "/docs/create-206-app",
       },
     ],
 
